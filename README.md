@@ -64,3 +64,5 @@ The program is based on [FastTreeID](https://github.com/yasminebriefs/FastTreeID
 Yasmine Briefs and Markus Bläser. A faster algorithm for the half-trek criterion in structural causal models. Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2026, NeurIPS 2026, December 6-12, 2026, Sydney, Australia (To appear)
 
 Yasmine Briefs and Markus Bläser. Faster generic identification in tree-shaped structural causal models. Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2025, NeurIPS 2025, December 2-7, 2025, San Diego, USA [https://openreview.net/forum?id=8PHOPPH35D](https://openreview.net/forum?id=8PHOPPH35D)
+
+Rina Foygel, Jan Draisma, and Mathias Drton. Half-trek criterion for generic identifiability of linear structural equation models. The Annals of Statistics, pages 1682--1713, 2012 [https://doi.org/10.1214/12-AOS1012](https://doi.org/10.1214/12-AOS1012)
