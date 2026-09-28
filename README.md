@@ -24,9 +24,9 @@ $i_0$ $j_0$
 $\dots$  
 $i_{m_2-1}$ $v_{m_2-1}$  
 
-where $n$ is the number of nodes; $m_1$ is the number of bidirected edges;
-$m_2$ is the number of directed edges; the nodes are numbered $0,\dots, n-1$;
-$\{u_0, v_0\}, \dots, \{u_{m_1-1},v_{m_1-1}\}$ are the bidirected edges; and
+where $n$ is the number of nodes, $m_1$/$`m_2`$ is the number of bidirected/directed edges,
+the nodes are numbered $0,\dots, n-1$,
+$`\{u_0, v_0\}, \dots, \{u_{m_1-1},v_{m_1-1}\}`$ are the bidirected edges, and
 $(i_0, j_0), \dots, (i_{m_2-1},j_{m_2-1})$ are the directed edges
 
 **Options**
