@@ -135,10 +135,10 @@ int main (int argc, char **argv) {
 		directed[i] = {u, v};
 	}
 
-#if defined(HAVE_OPENSSL)
-	auto identificationResult = fasterhtc::htc(n, bidirected, directed, seed, prime, isProbablyPrimeOPENSSL);
-#elif defined(HAVE_GMP)
+#if defined(HAVE_GMP)
 	auto identificationResult = fasterhtc::htc(n, bidirected, directed, seed, prime, isProbablyPrimeGMP);
+#elif defined(HAVE_OPENSSL)
+	auto identificationResult = fasterhtc::htc(n, bidirected, directed, seed, prime, isProbablyPrimeOPENSSL);
 #else
 	auto identificationResult = fasterhtc::htc(n, bidirected, directed, seed, prime, isProbablyPrimeError);
 #endif
